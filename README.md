@@ -46,7 +46,7 @@ npm install -g webpack webpack-cli
 With all those packages globally installed, you can proceed to clone this repository:
 
 ```
-$ git clone https://github.com/dev-bootcamp-2019/final-project-reactionhashs/
+git clone https://github.com/dev-bootcamp-2019/final-project-reactionhashs/
 ```
 
 While on the root directory:
