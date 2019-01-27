@@ -3,7 +3,7 @@
 **Vote** is a simple voting dApp built with Solidity, Truffle, React and Webpack. 
   
   - [Vote](#Vote)
-  - [What does it do?](#what-does-it-do?)
+  - [What does it do?](#what-does-it-do)
   - [Setting up](#setting-up)
   - [Deploying to local development network](#deploying-to-local-development-network)
   - [Deploying to Rinkeby testnet](#deploying-to-rinkeby-testnet)
