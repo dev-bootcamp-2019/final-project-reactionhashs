@@ -2,7 +2,6 @@
 
 **Vote** is a simple voting dApp built with Solidity, Truffle, React and Webpack. 
   
-  - [Vote](#Vote)
   - [What does it do?](#what-does-it-do)
   - [Setting up](#setting-up)
   - [Deploying to local development network](#deploying-to-local-development-network)
@@ -13,7 +12,7 @@
 
 **Vote.sol** implements an election between thirteen candidates that ran for the presidency of Brazil in 2018. You can choose one of them and deposit your vote by sending a transaction through Metamask. It has a very simple web interface you can interact with.
 
-The dApp is written in [Solidity](https://solidity.readthedocs.io/en/v0.5.0/index.html), with tests written in JavaScript. [Webpack](https://webpack.js.org/) bundle the modules, [webpack-dev-server](https://github.com/webpack/webpack-dev-server) serves the app, and [React](https://reactjs.org/) creates an interactive front end for the application.
+The dApp is written in [Solidity](https://solidity.readthedocs.io/en/v0.5.0/index.html), with tests written in JavaScript. [Webpack](https://webpack.js.org/) bundle the modules, [Webpack-dev-server](https://github.com/webpack/webpack-dev-server) serves the app, and [React](https://reactjs.org/) creates an interactive front end for the application.
 
 Preferably, you can try it out by deploying it to a local development blockchain with [Ganache-cli](https://github.com/trufflesuite/ganache-cli). It can also be deployed to the [Rinkeby testnet](https://rinkeby.etherscan.io) with the help of [Infura](https://infura.io/).
 
