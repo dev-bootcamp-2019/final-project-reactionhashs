@@ -5,11 +5,10 @@ If you don't have it yet, download the Metamask extension. Change to your Rinkeb
 Enter https://infura.io/, sign up and create a new project. Take note of the project ID.
 
 Create a .env file in the root directory of this project and add environment-specific variables to it, following this example:
-
+```
 MNEMONIC = "Add your Metamask 12 word mnemonic"
-
 INFURA_API_KEY = "Add project ID provided by Infura"
-
+```
 Inside the root directory of the project, run truffle compile and truffle migrate --network rinkeby 
 
 ### Setting up
