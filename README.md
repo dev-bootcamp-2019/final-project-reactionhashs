@@ -1,6 +1,6 @@
 # Vote
 
-[Vote] is a simple voting dApp built with Solidity, Truffle, React and Webpack. 
+**Vote** is a simple voting dApp built with Solidity, Truffle, React and Webpack. 
 - [Vote](#Vote)
   - [What does it do?](#what-does-it-do?)
   - [Setting up](#setting-up)
@@ -10,7 +10,7 @@
 
 ## What does it do?
 
-**Vote** implements an election between thirteen candidates that ran for the presidency of Brazil in 2018. You can choose one of them and deposit your vote by sending a transaction through Metamask. It has a very simple web interface you can interact with.
+**Vote.sol** implements an election between thirteen candidates that ran for the presidency of Brazil in 2018. You can choose one of them and deposit your vote by sending a transaction through Metamask. It has a very simple web interface you can interact with.
 
 The dApp is written in [Solidity](https://solidity.readthedocs.io/en/v0.5.0/index.html), with tests written in JavaScript. [Webpack](https://webpack.js.org/) is used in order to bundle the modules, while [React](https://reactjs.org/) creates an interactive front end for the application. 
 
