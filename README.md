@@ -7,6 +7,7 @@ Enter https://infura.io/, sign up and create a new project. Take note of the pro
 Create a .env file in the root directory of this project and add environment-specific variables to it, following this example:
 
 MNEMONIC = "Add your Metamask 12 word mnemonic"
+
 INFURA_API_KEY = "Add project ID provided by Infura"
 
 Inside the root directory of the project, run truffle compile and truffle migrate --network rinkeby 
