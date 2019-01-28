@@ -3,6 +3,7 @@ var Vote = artifacts.require("./Vote.sol");
 contract("Vote", function(accounts) {
   var VoteInstance;
 
+  // This checks if the election is initialized with the correct number of candidates.
   it("There are 13 candidates in the race", function() {
     return Vote.deployed().then(function(instance) {
       return instance.candidatesCount();
@@ -11,6 +12,7 @@ contract("Vote", function(accounts) {
     });
   });
 
+  // Checks id, name and vote count for candidates.
   it("Candidates have the correct id, name and vote count", function() {
     return Vote.deployed().then(function(instance) {
       VoteInstance = instance;
@@ -27,6 +29,7 @@ contract("Vote", function(accounts) {
     });
   });
 
+  // Makes sure an allowed address is able to vote in the chosen candidate.
   it("Address is able to vote", function() {
     return Vote.deployed().then(function(instance) {
       VoteInstance = instance;
@@ -46,6 +49,7 @@ contract("Vote", function(accounts) {
     })
   });
 
+  // Exception for invalid candidates.
   it("Exception for invalid candidates", function() {
     return Vote.deployed().then(function(instance) {
       VoteInstance = instance;
@@ -63,6 +67,7 @@ contract("Vote", function(accounts) {
     });
   });
 
+  // Makes sure voter can only vote once by trying to vote two times.
   it("Voter is not able to vote more than one time", function() {
     return Vote.deployed().then(function(instance) {
       VoteInstance = instance;
@@ -72,7 +77,6 @@ contract("Vote", function(accounts) {
     }).then(function(candidate) {
       var voteCount = candidate[2];
       assert.equal(voteCount, 1, "accepts first vote");
-      // Try to vote again
       return VoteInstance.vote(candidateId, { from: accounts[1] });
     }).then(assert.fail).catch(function(error) {
       assert(error.message.indexOf('revert') >= 0, "error message must contain revert");
