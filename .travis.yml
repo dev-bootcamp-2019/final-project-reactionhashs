@@ -12,6 +12,6 @@ before_script:
 
 script:
   - ./node_modules/.bin/eslint test/**/*.js
-  - ganache-cli -p 7545 &
+  - ganache-cli -p 8545 &
   - sleep 5
 - truffle test
