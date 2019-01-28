@@ -72,7 +72,7 @@ And start the application by running:
 npm run start
 ```
 
-A tab in your browser should open with http://localhost:8080/ and serve the application. You should now be able to choose one of the thirteen candidates and deposit your vote by submitting a transaction with Metamask. Each account can only vote once.
+A tab in your browser should open with http://localhost:8080/ and serve the application. You should now be able to choose one of the thirteen candidates and deposit your vote by submitting a transaction with Metamask. When refreshed, the page should reflect the new state and count your vote. Each account can only vote once.
 
 ## Deploying to Rinkeby testnet
 
@@ -80,7 +80,7 @@ If you wish so, you can deploy this to Rinkeby testnet. Change to your Rinkeby a
 
 Enter [Infura](https://infura.io/), sign up and create a new project. Take note of the project ID.
 
-Create a .env file in the root directory of this project and add environment-specific variables to it, following this example:
+Create a .env file in the root directory of this project and add two variables to it, following this example:
 
 ```
 MNEMONIC = "Add your Metamask 12 word mnemonic"
