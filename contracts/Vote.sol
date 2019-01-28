@@ -3,7 +3,7 @@ pragma solidity ^0.5.0;
 import "./Stop.sol";
 
 contract Vote is Stop {
-    // Creates the structure of a 'candidate' in our election.
+    // Creates a structure for a 'candidate' in our election.
     struct Candidate {
         uint id;
         string name;
@@ -12,7 +12,7 @@ contract Vote is Stop {
 
     }
 
-    // Creates the structure of a 'party' in our election (for further implementation).
+    // Creates a structure of a 'party' in our election (for further implementation).
     struct Party {
         string acronym;
         string partyName;
