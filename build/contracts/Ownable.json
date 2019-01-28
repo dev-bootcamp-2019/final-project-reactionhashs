@@ -8,14 +8,14 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x6080604052348015600f57600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605d6000396000f3fe6080604052600080fdfea165627a7a7230582025361d11a3c31e1c8777b80c319901a9ff46484b6102910a2f3318ffcb5e0b850029",
-  "deployedBytecode": "0x6080604052600080fdfea165627a7a7230582025361d11a3c31e1c8777b80c319901a9ff46484b6102910a2f3318ffcb5e0b850029",
+  "bytecode": "0x6080604052348015600f57600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605d6000396000f3fe6080604052600080fdfea165627a7a723058200dda671ae94433a6c168e4578883c7ca32df18ec277f47a2051543f7484b5c9f0029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058200dda671ae94433a6c168e4578883c7ca32df18ec277f47a2051543f7484b5c9f0029",
   "sourceMap": "25:180:1:-;;;72:60;8:9:-1;5:2;;;30:1;27;20:12;5:2;72:60:1;117:10;109:5;;:18;;;;;;;;;;;;;;;;;;25:180;;;;;;",
   "deployedSourceMap": "25:180:1:-;;;;;",
   "source": "pragma solidity ^0.5.0;\n\ncontract Ownable {\n  address payable owner;\n\n  constructor() Ownable() public {\n    owner = msg.sender;\n  }\n\n  modifier onlyOwner() {\n    require(msg.sender == owner);\n    _;\n  }\n}",
-  "sourcePath": "/home/rafael/Projetos/solidityexperiments/NewBrazilianPresidentialElection/contracts/Ownable.sol",
+  "sourcePath": "/home/rafael/Projetos/solidityexperiments/final-project-reactionhashs/contracts/Ownable.sol",
   "ast": {
-    "absolutePath": "/home/rafael/Projetos/solidityexperiments/NewBrazilianPresidentialElection/contracts/Ownable.sol",
+    "absolutePath": "/home/rafael/Projetos/solidityexperiments/final-project-reactionhashs/contracts/Ownable.sol",
     "exportedSymbols": {
       "Ownable": [
         83
@@ -329,7 +329,7 @@
     "src": "0:205:1"
   },
   "legacyAST": {
-    "absolutePath": "/home/rafael/Projetos/solidityexperiments/NewBrazilianPresidentialElection/contracts/Ownable.sol",
+    "absolutePath": "/home/rafael/Projetos/solidityexperiments/final-project-reactionhashs/contracts/Ownable.sol",
     "exportedSymbols": {
       "Ownable": [
         83
@@ -648,7 +648,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.0",
-  "updatedAt": "2019-01-27T04:35:25.708Z",
+  "updatedAt": "2019-01-28T03:50:18.129Z",
   "devdoc": {
     "methods": {}
   },

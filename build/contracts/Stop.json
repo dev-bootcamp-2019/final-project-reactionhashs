@@ -47,14 +47,14 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x608060405260008060146101000a81548160ff021916908315150217905550336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506102098061006d6000396000f3fe60806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806312253a6c1461007257806341c0e1b514610089578063c4bc5da5146100a0578063d0e30db0146100b7578063db2e21bc146100c1575b600080fd5b34801561007e57600080fd5b506100876100d8565b005b34801561009557600080fd5b5061009e6100f5565b005b3480156100ac57600080fd5b506100b5610186565b005b6100bf6101a2565b005b3480156100cd57600080fd5b506100d66101c0565b005b6001600060146101000a81548160ff021916908315150217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610184576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b60008060146101000a81548160ff021916908315150217905550565b600060149054906101000a900460ff161515156101be57600080fd5b565b600060149054906101000a900460ff1615156101db57600080fd5b56fea165627a7a7230582066f9af1386bb55ab0c2202383295138ac14633015dd4507c55101665a3cabcd40029",
-  "deployedBytecode": "0x60806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806312253a6c1461007257806341c0e1b514610089578063c4bc5da5146100a0578063d0e30db0146100b7578063db2e21bc146100c1575b600080fd5b34801561007e57600080fd5b506100876100d8565b005b34801561009557600080fd5b5061009e6100f5565b005b3480156100ac57600080fd5b506100b5610186565b005b6100bf6101a2565b005b3480156100cd57600080fd5b506100d66101c0565b005b6001600060146101000a81548160ff021916908315150217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610184576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b60008060146101000a81548160ff021916908315150217905550565b600060149054906101000a900460ff161515156101be57600080fd5b565b600060149054906101000a900460ff1615156101db57600080fd5b56fea165627a7a7230582066f9af1386bb55ab0c2202383295138ac14633015dd4507c55101665a3cabcd40029",
+  "bytecode": "0x608060405260008060146101000a81548160ff021916908315150217905550336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506102098061006d6000396000f3fe60806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806312253a6c1461007257806341c0e1b514610089578063c4bc5da5146100a0578063d0e30db0146100b7578063db2e21bc146100c1575b600080fd5b34801561007e57600080fd5b506100876100d8565b005b34801561009557600080fd5b5061009e6100f5565b005b3480156100ac57600080fd5b506100b5610186565b005b6100bf6101a2565b005b3480156100cd57600080fd5b506100d66101c0565b005b6001600060146101000a81548160ff021916908315150217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610184576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b60008060146101000a81548160ff021916908315150217905550565b600060149054906101000a900460ff161515156101be57600080fd5b565b600060149054906101000a900460ff1615156101db57600080fd5b56fea165627a7a7230582047fd3e13874944aaaf0d04b5c3f7641e3c16a2adc2e858c467181011f8f228000029",
+  "deployedBytecode": "0x60806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806312253a6c1461007257806341c0e1b514610089578063c4bc5da5146100a0578063d0e30db0146100b7578063db2e21bc146100c1575b600080fd5b34801561007e57600080fd5b506100876100d8565b005b34801561009557600080fd5b5061009e6100f5565b005b3480156100ac57600080fd5b506100b5610186565b005b6100bf6101a2565b005b3480156100cd57600080fd5b506100d66101c0565b005b6001600060146101000a81548160ff021916908315150217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610184576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b60008060146101000a81548160ff021916908315150217905550565b600060149054906101000a900460ff161515156101be57600080fd5b565b600060149054906101000a900460ff1615156101db57600080fd5b56fea165627a7a7230582047fd3e13874944aaaf0d04b5c3f7641e3c16a2adc2e858c467181011f8f228000029",
   "sourceMap": "50:650:2:-;;;97:5;82:20;;;;;;;;;;;;;;;;;;;;117:10:1;109:5;;:18;;;;;;;;;;;;;;;;;;50:650:2;;;;;;",
   "deployedSourceMap": "50:650:2:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;308:77;;8:9:-1;5:2;;;30:1;27;20:12;5:2;308:77:2;;;;;;614:84;;8:9:-1;5:2;;;30:1;27;20:12;5:2;614:84:2;;;;;;391:80;;8:9:-1;5:2;;;30:1;27;20:12;5:2;391:80:2;;;;;;477:57;;;;;;540:64;;8:9:-1;5:2;;;30:1;27;20:12;5:2;540:64:2;;;;;;308:77;374:4;364:7;;:14;;;;;;;;;;;;;;;;;;308:77::o;614:84::-;665:5;;;;;;;;;;;651:19;;:10;:19;;;647:44;;;685:5;;;;;;;;;;;672:19;;;647:44;614:84::o;391:80::-;459:5;449:7;;:15;;;;;;;;;;;;;;;;;;391:80::o;477:57::-;153:7;;;;;;;;;;;152:8;144:17;;;;;;;;477:57::o;540:64::-;228:7;;;;;;;;;;;220:16;;;;;;;;540:64::o",
   "source": "pragma solidity ^0.5.0;\n\nimport \"./Ownable.sol\";\n\ncontract Stop is Ownable {\n\n    bool stopped = false;\n\n    modifier emergencySwitch {\n        require(!stopped);\n        _;\n    }\n\n    modifier onlyWhenStopped {\n        require(stopped);\n        _;\n    }\n\n    modifier onlyAuthorized {\n        _;\n    }\n\n    function stopContract() public onlyAuthorized {\n        stopped = true;\n    }\n\n    function resumeContract() public onlyAuthorized {\n        stopped = false;\n    }\n\n    function deposit() public payable emergencySwitch {\n    }\n\n    function emergencyWithdraw() public view onlyWhenStopped {\n    }\n    \n    function kill() public {\n        if (msg.sender == owner) selfdestruct(owner);\n    }\n}",
-  "sourcePath": "/home/rafael/Projetos/solidityexperiments/NewBrazilianPresidentialElection/contracts/Stop.sol",
+  "sourcePath": "/home/rafael/Projetos/solidityexperiments/final-project-reactionhashs/contracts/Stop.sol",
   "ast": {
-    "absolutePath": "/home/rafael/Projetos/solidityexperiments/NewBrazilianPresidentialElection/contracts/Stop.sol",
+    "absolutePath": "/home/rafael/Projetos/solidityexperiments/final-project-reactionhashs/contracts/Stop.sol",
     "exportedSymbols": {
       "Stop": [
         158
@@ -75,7 +75,7 @@
         "src": "0:23:2"
       },
       {
-        "absolutePath": "/home/rafael/Projetos/solidityexperiments/NewBrazilianPresidentialElection/contracts/Ownable.sol",
+        "absolutePath": "/home/rafael/Projetos/solidityexperiments/final-project-reactionhashs/contracts/Ownable.sol",
         "file": "./Ownable.sol",
         "id": 86,
         "nodeType": "ImportDirective",
@@ -845,7 +845,7 @@
     "src": "0:700:2"
   },
   "legacyAST": {
-    "absolutePath": "/home/rafael/Projetos/solidityexperiments/NewBrazilianPresidentialElection/contracts/Stop.sol",
+    "absolutePath": "/home/rafael/Projetos/solidityexperiments/final-project-reactionhashs/contracts/Stop.sol",
     "exportedSymbols": {
       "Stop": [
         158
@@ -866,7 +866,7 @@
         "src": "0:23:2"
       },
       {
-        "absolutePath": "/home/rafael/Projetos/solidityexperiments/NewBrazilianPresidentialElection/contracts/Ownable.sol",
+        "absolutePath": "/home/rafael/Projetos/solidityexperiments/final-project-reactionhashs/contracts/Ownable.sol",
         "file": "./Ownable.sol",
         "id": 86,
         "nodeType": "ImportDirective",
@@ -1641,7 +1641,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.0",
-  "updatedAt": "2019-01-27T04:35:25.712Z",
+  "updatedAt": "2019-01-28T03:50:18.133Z",
   "devdoc": {
     "methods": {}
   },
