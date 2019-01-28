@@ -3,7 +3,7 @@ pragma solidity ^0.5.0;
 import "./Stop.sol";
 
 contract Vote is Stop {
-    
+
     struct Candidate {
         uint id;
         string name;
