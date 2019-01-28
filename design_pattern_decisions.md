@@ -4,4 +4,4 @@
 
 **Ownable.sol** is applied to **Stop.sol** in order to ensure that only the owner of the contract is able to freeze it and kill it. 
 
-**Stop.sol** is applied to **Vote.sol** to create a circuit breaker.
+**Stop.sol** is applied to **Vote.sol** to create an emergency switch.
