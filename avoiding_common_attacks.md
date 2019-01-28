@@ -1,4 +1,4 @@
-# Avoiding common attacks
+# Security
 
   - [Main contract](#main-contract)
   - [Ownership](#ownership)
